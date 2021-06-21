@@ -55,6 +55,7 @@
                 android:layout_marginEnd="12dp"
                 android:layout_marginRight="12dp"
                 android:layout_toStartOf="@id/loginlogo"
+                android:layout_toLeftOf="@id/loginlogo"
                 android:fontFamily="@font/abril_fatface"
                 android:text="Already have an Account"
                 android:textColor="#FFFFFF"
@@ -168,6 +169,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toStartOf="@+id/view3"
+                    android:layout_toLeftOf="@+id/view3"
                     app:srcCompat="@drawable/google" />
 
                 <View
@@ -179,6 +181,7 @@
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_toEndOf="@id/view3"
+                    android:layout_toRightOf="@id/view3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/phone" />
