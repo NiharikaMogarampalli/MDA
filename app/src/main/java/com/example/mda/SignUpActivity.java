@@ -40,6 +40,19 @@ public class SignUpActivity extends AppCompatActivity {
                 startActivityForResult(Intent.createChooser(gallery,"select picture"),PICK_IMAGE);
             }
         });
+        binding.login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SignUpActivity.this,LoginActivity.class));
+            }
+        });
+        binding.signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SignUpActivity.this,DashboardActivity.class));
+                finish();
+            }
+        });
     }
 
     @Override
