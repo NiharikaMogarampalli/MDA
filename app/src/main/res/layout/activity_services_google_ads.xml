@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServicesGoogleAds">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Google Ads"
+            android:textSize="25dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:id="@+id/text"/>
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/image"
+            android:layout_below="@+id/text"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/googleads"/>
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/image"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="18dp"
+            android:text="@string/googleadsservices"
+            android:justificationMode="inter_word"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/getstarted"
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:onClick="gotoservicesform"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:text="Get Started"/>
+
+    </RelativeLayout>
+</ScrollView>

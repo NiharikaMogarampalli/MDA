@@ -8,29 +8,13 @@
     android:layout_height="match_parent"
     >
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        android:layout_centerHorizontal="true"
+    <VideoView
         android:layout_centerInParent="true"
-        android:layout_marginBottom="-25dp"
-        android:src="@drawable/splashlogo"
-         />
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_below="@id/imageView"
-        android:layout_centerInParent="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/alex_brush"
-        android:text="Welcomes You"
-        android:textColor="#070707"
-        android:textSize="32sp"
-        android:textStyle="bold"
-         />
+
 
     </RelativeLayout>
 

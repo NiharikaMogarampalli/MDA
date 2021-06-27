@@ -8,8 +8,10 @@ import androidx.core.view.GravityCompat;
 import androidx.databinding.DataBindingUtil;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.example.mda.databinding.ActivityDashboardBinding;
 import com.google.android.material.navigation.NavigationView;
@@ -52,5 +54,14 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         return true;
+    }
+
+    public void gotoservices(View view) {
+        startActivity(new Intent(DashboardActivity.this,ServicesActivity.class));
+    }
+
+    public void gototrainings(View view) {
+        startActivity(new Intent(DashboardActivity.this,TrainingActivity.class));
+
     }
 }

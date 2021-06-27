@@ -9,15 +9,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DashboardActivity"></activity>
+        <activity android:name=".FormActivity">
+
+        </activity>
+        <activity android:name=".TrainingPayPerClick" />
+        <activity android:name=".ServicesContentMarketing" />
+        <activity android:name=".ServicesGrowBusiness" />
+        <activity android:name=".ServicePayPerClick" />
+        <activity android:name=".ServicesGoogleAds" />
+        <activity android:name=".ServiceSEO" />
+        <activity android:name=".ServiceSocialMediaMarketing">
+
+
+        </activity>
+        <activity android:name=".ServiceDigitalMarketing" />
+        <activity android:name=".TrainingGoogleAds" />
+        <activity android:name=".TrainingActivity" />
+        <activity android:name=".ServicesActivity" />
+        <activity android:name=".DashboardActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
 
         <meta-data
