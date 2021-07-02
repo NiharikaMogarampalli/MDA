@@ -37,8 +37,23 @@
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:textSize="18dp"
+        android:id="@+id/content"
         android:text="@string/googleadstraining"
         android:justificationMode="inter_word"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/getstarted"
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:onClick="gototrainingsform"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:text="Get Started"/>
 
     </RelativeLayout>
 </ScrollView>

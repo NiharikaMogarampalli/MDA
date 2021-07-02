@@ -9,28 +9,39 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    <TextView
-        android:id="@+id/heading"
-        android:layout_marginTop="25dp"
-        android:textStyle="bold"
-        android:layout_marginLeft="20dp"
-        android:fontFamily="@font/abril_fatface"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:text="Our Services"
-        android:textSize="28dp"/>
+        android:layout_height="match_parent"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/adamina"
+            android:text="Our Services"
+            android:textColor="#ffffff"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+        <VideoView
+
+            android:id="@+id/video"
+            android:layout_below="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="15dp"
+            />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_below="@+id/heading"
+        android:layout_below="@+id/video"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/rv"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:layout_marginBottom="20dp"
         />
     </RelativeLayout>
 

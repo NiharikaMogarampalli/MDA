@@ -47,8 +47,14 @@ public class TrainingRvAdapter extends RecyclerView.Adapter<TrainingRvAdapter.Rv
                 row_index=position;
                 if(row_index==0)
                     context.startActivity(new Intent(context,TrainingGoogleAds.class));
+                else if(row_index==1)
+                    context.startActivity(new Intent(context,TrainingEmailMarketing.class));
                 else if(row_index==2)
                     context.startActivity(new Intent(context,TrainingPayPerClick.class));
+                else if(row_index==3)
+                    context.startActivity(new Intent(context,TrainingYoutubeMarketing.class));
+                else if(row_index==4)
+                    context.startActivity(new Intent(context,TrainingWebdevelopment.class));
                 notifyDataSetChanged();
 
             }

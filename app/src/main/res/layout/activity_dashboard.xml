@@ -76,22 +76,14 @@
                           android:layout_height="200dp"
                           android:orientation="vertical"
                           android:gravity="center">
-                      <TextView
-                          android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:text="MERDEVELOP"
-                          android:textColor="#058CF8"
-                          android:textStyle="bold"
-                          android:layout_gravity="center"
-                          android:textSize="35sp"/>
-                      <TextView
-                          android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:text="Shore Of Your Destiny"
-                          android:textColor="#FAA322"
-                          android:textStyle="bold"
-                          android:layout_gravity="center"
-                          android:textSize="20sp"/>
+
+                          <ImageView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="35dp"
+                              android:layout_marginRight="35dp"
+                              android:layout_marginBottom="25dp"
+                              android:src="@drawable/mdalogo"/>
                       </LinearLayout>
 
 
@@ -148,7 +140,7 @@
                                        android:textColor="#000000"
                                        android:layout_marginBottom="10dp"
                                        android:text="SERVICES"
-                                       android:textSize="17sp"
+                                       android:textSize="14sp"
                                        android:textStyle="bold" />
                                      <Button
                                          android:layout_width="match_parent"
@@ -188,7 +180,7 @@
                                       android:text="TRAINING"
                                       android:layout_marginTop="8dp"
                                       android:textColor="#000000"
-                                      android:textSize="17sp"
+                                      android:textSize="14sp"
                                       android:textStyle="bold"
                                       android:layout_below="@+id/imageView2"
                                       android:layout_centerHorizontal="true"
@@ -240,7 +232,7 @@
                                     android:text="CARRER JOBS"
                                     android:layout_marginTop="8dp"
                                     android:textColor="#000000"
-                                    android:textSize="17sp"
+                                    android:textSize="14sp"
                                     android:textStyle="bold"
                                     android:layout_below="@+id/imageView3"
                                     android:layout_centerHorizontal="true"
@@ -282,7 +274,7 @@
                                     android:text="WEB HOSTING"
                                     android:layout_marginTop="8dp"
                                     android:textColor="#000000"
-                                    android:textSize="17sp"
+                                    android:textSize="14sp"
                                     android:textStyle="bold"
                                     android:layout_below="@+id/imageView4"
                                     android:layout_centerHorizontal="true"
@@ -291,6 +283,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:id="@+id/buttonwebhosting"
+                                    android:onClick="gotowebhosting"
                                     android:background="@android:color/transparent"/>
 
 
@@ -333,7 +326,7 @@
                                     android:text="ABOUT US"
                                     android:layout_marginTop="8dp"
                                     android:textColor="#000000"
-                                    android:textSize="17sp"
+                                    android:textSize="14sp"
                                     android:textStyle="bold"
                                     android:layout_below="@+id/imageView5"
                                     android:layout_centerHorizontal="true"
@@ -342,6 +335,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:id="@+id/buttonaboutus"
+                                    android:onClick="gotoaboutus"
                                     android:background="@android:color/transparent"/>
 
 
@@ -376,7 +370,7 @@
                                     android:text="CONTACT US"
                                     android:layout_marginTop="8dp"
                                     android:textColor="#000000"
-                                    android:textSize="17sp"
+                                    android:textSize="14sp"
                                     android:textStyle="bold"
                                     android:layout_below="@+id/imageView6"
                                     android:layout_centerHorizontal="true"
